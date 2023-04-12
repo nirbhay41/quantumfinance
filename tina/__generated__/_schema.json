@@ -7,7 +7,7 @@
   },
   "meta": { "flags": ["experimentalData"] },
   "collections": [
-    {
+    { 
       "format": "md",
       "label": "Pages",
       "name": "pages",
