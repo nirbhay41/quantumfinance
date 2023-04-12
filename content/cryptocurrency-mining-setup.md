@@ -1,15 +1,14 @@
-+++
-description = ""
-enable_prefooter_cta = true
-enable_prefooter_default_content = true
-include_footer = true
-prefooter_button_cta = "Learn you can make passive income by using our hotspots"
-prefooter_button_link = "/#contact"
-prefooter_cta_text = "Start mining today!"
-title = "Start a crypto mining operation"
-url = "/miningsetupservice/"
-
-+++
+---
+description: ""
+enable_prefooter_cta: true
+enable_prefooter_default_content: true
+include_footer: true
+prefooter_button_cta: "Learn you can make passive income by using our hotspots"
+prefooter_button_link: "/#contact"
+prefooter_cta_text: "Start mining today!"
+title: "Start a crypto mining operation"
+url: "/miningsetupservice/"
+---
 {{% content-image "/images/image_13.jpeg" "This is an image" "" %}} 
 Mining is all about creating a _consistent source of passive income_ for yourself. Quantum Finance offers a comprehensive mining setup service where we do all the work for you and you just watch the passive income roll in every month. We offer the full setup and management for mining Bitcoin, Ethereum, Helium & Chia. We selected these four because they provide high yield as well as a strong community of users and can allow investors to set up a significant passive income source from the comfort of their home. 
 

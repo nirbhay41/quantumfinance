@@ -1,0 +1,97 @@
+{
+  "version": {
+    "fullVersion": "1.4.6",
+    "major": "1",
+    "minor": "4",
+    "patch": "6"
+  },
+  "meta": { "flags": ["experimentalData"] },
+  "collections": [
+    {
+      "format": "md",
+      "label": "Pages",
+      "name": "pages",
+      "path": "content",
+      "match": { "include": "*" },
+      "fields": [
+        {
+          "type": "string",
+          "name": "title",
+          "label": "Title",
+          "description": "Heading of the page",
+          "namespace": ["pages", "title"]
+        },
+        {
+          "type": "string",
+          "name": "url",
+          "label": "URL",
+          "description": "Url of the page",
+          "namespace": ["pages", "url"]
+        },
+        {
+          "type": "boolean",
+          "name": "enable_prefooter_cta",
+          "label": "enable_prefooter_cta",
+          "description": "Enable the prefooter cta section",
+          "namespace": ["pages", "enable_prefooter_cta"]
+        },
+        {
+          "type": "boolean",
+          "name": "enable_prefooter_default_content",
+          "label": "enable_prefooter_default_content",
+          "description": "Show the prefooter default content",
+          "namespace": ["pages", "enable_prefooter_default_content"]
+        },
+        {
+          "type": "string",
+          "name": "prefooter_button_cta",
+          "label": "prefooter_button_cta",
+          "description": "prefooter_button_cta",
+          "namespace": ["pages", "prefooter_button_cta"]
+        },
+        {
+          "type": "string",
+          "name": "prefooter_button_link",
+          "label": "prefooter_button_link",
+          "description": "Link on the button",
+          "namespace": ["pages", "prefooter_button_link"]
+        },
+        {
+          "type": "string",
+          "name": "description",
+          "label": "description",
+          "description": "Description",
+          "namespace": ["pages", "description"]
+        },
+        {
+          "type": "string",
+          "name": "prefooter_cta_text",
+          "label": "prefooter_cta_text",
+          "description": "prefooter_cta_text",
+          "namespace": ["pages", "prefooter_cta_text"]
+        },
+        {
+          "type": "boolean",
+          "name": "include_footer",
+          "label": "include_footer",
+          "description": "Include footer",
+          "namespace": ["pages", "include_footer"]
+        },
+        {
+          "type": "string",
+          "name": "body",
+          "label": "Body of Document",
+          "description": "This is the markdown body",
+          "isBody": true,
+          "ui": { "component": "textarea" },
+          "namespace": ["pages", "body"]
+        }
+      ],
+      "namespace": ["pages"]
+    }
+  ],
+  "config": {
+    "client": {},
+    "media": { "tina": { "publicFolder": "static", "mediaRoot": "images" } }
+  }
+}

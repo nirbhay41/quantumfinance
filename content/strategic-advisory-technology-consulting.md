@@ -1,15 +1,14 @@
-+++
-description = ""
-enable_prefooter_cta = true
-enable_prefooter_default_content = true
-include_footer = true
-prefooter_button_cta = "Let us guide you towards the right tech stack   <br> Book a consultation with our team"
-prefooter_button_link = "/#contact"
-prefooter_cta_text = "Let us guide you towards the right tech stack   <br> Book a consultation with our team"
-title = "Tech Consulting "
-url = "/advanced-technologies-consulting"
-
-+++
+---
+description: ""
+enable_prefooter_cta: true
+enable_prefooter_default_content: true
+include_footer: true
+prefooter_button_cta: "Let us guide you towards the right tech stack   <br> Book a consultation with our team"
+prefooter_button_link: "/#contact"
+prefooter_cta_text: "Let us guide you towards the right tech stack   <br> Book a consultation with our team"
+title: "Tech Consulting "
+url: "/advanced-technologies-consulting"
+---
 
 {{% content-image "/images/image_12.jpeg" "This is an image" "reverse" "" %}} 
 Our Approach explained: We consult, we build

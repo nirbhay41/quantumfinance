@@ -11,7 +11,6 @@ description: Quantum Finance offers comprehensive consultations for individuals 
 prefooter_cta_text: Ready to start your crypto journey? <br> Book a consultation with
   our team
 include_footer: true
-
 ---
 {{% content-image "/images/image_3.jpeg" "This is an image" "reverse" %}}
 

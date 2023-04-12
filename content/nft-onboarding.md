@@ -10,7 +10,6 @@ prefooter_button_link: "/#contact"
 prefooter_cta_text: Ready to bring your art onto the NFT world? <br> Book a consultation
   with our team
 include_footer: true
-
 ---
 
 {{% content-image "/images/image_1.jpeg" "This is an image" "" %}} 
